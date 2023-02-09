@@ -178,6 +178,19 @@ hr{
 .research-year-column{
     text-align: right;
   }
+
+
+
+  /* Projects */
+
+  .projects-table{
+    width:50%;
+    margin: 100px auto 100px auto; 
+  }
+
+  .Project-column{
+    text-align: left;
+  }
     
 
 

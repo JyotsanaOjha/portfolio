@@ -40,36 +40,36 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="">Home</a>
+            <a class="nav-link text-white" href="#home">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-white" href="#about-us">Skills</a>
+            <a class="nav-link text-white" href="#skills">Skills</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-white" href="#reviews">Education</a>
+            <a class="nav-link text-white" href="#education">Education</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-white" href="#reviews">Research Papers</a>
+            <a class="nav-link text-white" href="#research">Research Papers</a>
           </li>
-          
-          
+
+
           <li class="nav-item">
-            <a class="nav-link text-white" href="#reviews">Projects</a>
+            <a class="nav-link text-white" href="#projects">Projects</a>
           </li>
-          
-          <li class="nav-item">
+
+          <!-- <li class="nav-item">
             <a class="nav-link text-white" href="#reviews">Certificates</a>
-          </li>
-          
+          </li> -->
+
           <li class="nav-item">
-            <a class="nav-link text-white" href="#reviews">Work Experience</a>
+            <a class="nav-link text-white" href="#experience">Work Experience</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-white" href="#contact-us">Contact Me</a>
+            <a class="nav-link text-white" href="#contact-me">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -93,7 +93,7 @@
 
 
 
-  <div class="top-container">
+  <div class="top-container" id="home">
 
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
 
@@ -108,7 +108,7 @@
 
 
 
-  <div class="middle-container">
+  <div class="container-fluid middle-container">
     <div class="profile">
       <img class="img-round" src="images\Jyotsana.png" alt="jyotsana-img" width="150px" length="150px">
       <h2>Hello.</h2>
@@ -121,7 +121,7 @@
   <hr>
 
 
-  <div class="skills">
+  <div class="container-fluid skills" id="skills">
     <h2>My Skills.</h2>
     <div class="skill-row">
       <img class="img-round1" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="" width="300px"
@@ -157,11 +157,11 @@
 
 
 
-  <div class="education">
+  <div class="education" id="education">
 
     <h2>My Education.</h2>
 
-    <div class="container education-table">
+    <div class="container-fluid education-table">
 
       <div class="row justify-content-between pb-3">
         <div class="col-6 degree-column">
@@ -192,15 +192,16 @@
 
 
 
-  <div class="research-papers">
+  <div class="research-papers" id="research">
 
     <h2>My Research Papers.</h2>
 
-    <div class="container research-papers-table">
+    <div class="container-fluid research-papers-table">
 
       <div class="row justify-content-between pb-3">
         <div class="col-6 research-detail-column">
-          <strong>A Hybrid Approach for VM Load Balancing in Cloud Using CloudSim</strong> <br><a href="https://api.semanticscholar.org/CorpusID:63192711">"https://api.semanticscholar.org/CorpusID:63192711"</a>
+          <strong>A Hybrid Approach for VM Load Balancing in Cloud Using CloudSim</strong> <br><a
+            href="https://api.semanticscholar.org/CorpusID:63192711">"https://api.semanticscholar.org/CorpusID:63192711"</a>
         </div>
         <div class="col-6 research-year-column">
           2014
@@ -210,7 +211,8 @@
 
       <div class="row justify-content-between pt-3">
         <div class="col-6 research-detail-column">
-          <strong>Distributed Environment of Cloud for Supply Chain Management</strong> <br><a href="http://ijeit.com/vol%201/Issue%204/IJEIT1412201204_10.pdf">"http://ijeit.com/vol%201/Issue%204/IJEIT1412201204_10.pdf"</a>
+          <strong>Distributed Environment of Cloud for Supply Chain Management</strong> <br><a
+            href="http://ijeit.com/vol%201/Issue%204/IJEIT1412201204_10.pdf">"http://ijeit.com/vol%201/Issue%204/IJEIT1412201204_10.pdf"</a>
         </div>
         <div class="col-6 research-year-column">
           2012
@@ -221,17 +223,146 @@
 
   </div>
 
- 
+
+
 
   <hr>
 
 
 
-  <div class="work-experience">
+
+  <!-- <div class="container-fluid certificates">
+
+    <h2>My Certificates.</h2>
+
+    <div id="certificates-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+
+          <img class="img-fluid" src="images/IBM SkillsBuild Certificate.pdf"><br>
+          
+
+        </div>
+
+        <div class="carousel-item">
+          <img class="img-fluid" src="images/espresso1.jpg" alt="Espresso"><br>
+          <em class="menu-item">Espresso</em>
+          <p>5 Calories, Full-bodied, hot and delicious espresso
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <img class="img-fluid" src="images/cappuccino1.jpg" alt="cappuccino"><br>
+          <em class="menu-item">Cappuccino</em>
+          <p>150 Calories, Full-bodied espresso with steamed milk and a soft foam layering
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <img class="img-fluid" src="images/hot-chocolate1.jpg" alt="Hot Chocolate"><br>
+          <em class="menu-item">Hot Chocolate</em>
+          <p>310 Calories, Our signature hot chocolate
+          </p>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#certificates-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#certificates-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+
+
+
+  <hr>
+
+ -->
+
+  <div class="projects" id="projects">
+
+    <h2>My Projects.</h2>
+
+    <div class="container-fluid projects-table">
+
+      <div class="row  pb-3">
+        <div class="col Project-column">
+          <strong>My Newsletter App</strong> <br>
+          <a href="https://stormy-hamlet-97967.herokuapp.com/">https://stormy-hamlet-97967.herokuapp.com/</a>
+          <br>
+          <ul>
+            <li>Created my newsletter app using HTML, CSS, Bootstrap, npm, HTTPS, Express, and Mailchimp API</li>
+            <li>Using this website, people can sign up for my mailing list. The data collected gets sent to my list on
+              the MailChimp server, and my new subscriber gets added</li>
+            <li>The new subscribers also receive an automated welcome email, and after that, I can send my newsletters
+              or my email campaigns to my subscribers</li>
+            <li>Hosted this website on Heroku</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row  pb-3 pt-3">
+        <div class="col Project-column">
+          <strong>Simon Game</strong> <br>
+          <a href="https://jyotsanaojha.github.io/Simon-Game/">https://jyotsanaojha.github.io/Simon-Game/</a>
+          <br>
+          <ul>
+            <li>This website is modeled on the game “Simon” using HTML, CSS, JavaScript, and jQuery</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row  pb-3 pt-3">
+        <div class="col Project-column">
+          <strong>Drum Kit</strong> <br>
+          <a href="https://jyotsanaojha.github.io/Drum-Kit/">https://jyotsanaojha.github.io/Drum-Kit/</a>
+          <br>
+          <ul>
+            <li>This Drum Kit website is created using HTML, CSS, Advanced JavaScript, and DOM Manipulation</li>
+            <li>When the user clicks on a particular button on the website, then it responds with the corresponding
+              sound of the drum</li>
+            <li>In addition, the user can also use the keys on the keyboard to play the drums</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row  pb-3 pt-3">
+        <div class="col Project-column">
+          <strong>TinDog</strong> <br>
+          <a href="https://jyotsanaojha.github.io/TinDog/">https://jyotsanaojha.github.io/TinDog/</a>
+          <br>
+          <ul>
+            <li>Created an intuitive, responsive layout of the landing page for a website to buy dogs using HTML,
+              Advanced CSS, and Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <hr>
+
+
+
+  <div class="work-experience" id="experience">
 
     <h2>My Work Experience.</h2>
 
-    <div class="container work-experience-table">
+    <div class="container-fluid work-experience-table">
 
       <div class="row justify-content-between pb-3">
         <div class="col-6 work-detail-column">
@@ -243,7 +374,7 @@
       </div>
 
 
-      <div class="row justify-content-between pt-3">
+      <div class="row justify-content-between pb-3">
         <div class="col-6 work-detail-column">
           <strong>WIX Web Designer and Developer</strong> <br>Self-Employed, Canada
         </div>
@@ -253,7 +384,7 @@
       </div>
 
 
-      <div class="row justify-content-between pt-3">
+      <div class="row justify-content-between pb-3">
         <div class="col-6 work-detail-column">
           <strong>Lecturer</strong> <br>Institute of Technology & Management, Bhilwara (India)
         </div>
@@ -266,9 +397,11 @@
 
   </div>
 
+ 
+  <hr>
 
 
-  <div class="contact-me">
+  <div class="contact-me" id="contact-me">
     <h2>Get In Touch</h2>
     <h3>Let's code and sing.....</h3>
     <!-- <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p> -->
