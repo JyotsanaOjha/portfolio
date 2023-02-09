@@ -65,10 +65,18 @@ hr{
     text-decoration: underline;
 }
 
+
+
+/* navigation bar */
+
 .navbar{
     background-color:#11999E ;
 }
 
+
+
+
+/* top container */
 .top-container{
 
     background-color: #EAF6F6;
@@ -78,15 +86,11 @@ hr{
 
 }
 
-.middle-container{
-    margin: 100px 0;
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 100px;
 }
-
-.bottom-container{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
-    
-} 
 
 .bottom-cloud{
     position: absolute;
@@ -95,45 +99,132 @@ hr{
 
 } 
 
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 100px;
+
+
+
+/* middle container */
+.middle-container{
+    margin: 50px 0px 100px;
 }
+
 
 .img-round1{
     border-radius: 50%;
-    width: 25%;
+    width: 15%;
     float: left;
     margin-right: 30px;
 }
 .img-round2{
     border-radius: 50%;
-    width: 25%;
+    width: 15%;
     float: right;
     margin-left: 30px;
 }
 
 
+
+
+/* Skills */
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
-    text-align: left;
-    
+    text-align: left;   
 }
 
 .clear-hr{
-
     clear: both;
     position: relative;
-    top: 60px;
-    
+    top: 60px; 
 }
 
 
+
+
+/* Education */
 .education{
     margin-top: 150px;
 }
+
+.education-table{
+    width:50%;
+    margin: 100px auto 100px auto; 
+ }
+
+.degree-column{
+    text-align: left;
+}
+  
+.degree-year-column{
+    text-align: right;
+  }
+    
+
+
+
+  /* Research Papers */
+.research-papers{
+    margin-top: 100px;
+}
+
+.research-papers-table{
+    width:50%;
+    margin: 100px auto 100px auto; 
+ }
+
+.research-detail-column{
+    text-align: left;
+}
+  
+.research-year-column{
+    text-align: right;
+  }
+    
+
+
+  /* Work Experience */
+.work-experience{
+    margin-top: 100px;
+}
+
+.work-experience-table{
+    width:50%;
+    margin: 100px auto 100px auto; 
+ }
+
+.work-detail-column{
+    text-align: left;
+}
+  
+.work-year-column{
+    text-align: right;
+  }
+
+
+
+
+
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
 
 
 .copyright{
