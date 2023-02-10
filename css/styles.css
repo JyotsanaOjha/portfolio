@@ -18,7 +18,7 @@ a{
 }
 
 a:hover{
-    color: #EAF6F6;
+    color: #14cece;
 }
 
 
@@ -63,6 +63,8 @@ hr{
 
 .pro{
     text-decoration: underline;
+    color: #008ad1;
+    font-weight: 700;
 }
 
 
@@ -190,6 +192,10 @@ hr{
 
   .Project-column{
     text-align: left;
+  }
+
+  .project-link-column{
+
   }
     
 
